@@ -32,7 +32,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
-##FILE.L
+# FILE.L
 ```
 %{
 /* program to recognize a C program */
@@ -128,7 +128,7 @@ int yywrap() {
     return 1; 
 }
 ```
-##VAR.C
+# VAR.C
 ```
 #include<stdio.h>
 int main()
